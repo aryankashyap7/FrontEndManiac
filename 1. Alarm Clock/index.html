@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alarmy</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="./assets/clock.png" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1 id="alarmname">ALARMIFY</h1>
+      <img
+        src="./assets/clock.png"
+        alt="clock-icon"
+        height="400px"
+        width="400px"
+      />
+      <h1 id="time">21:07:01 PM</h1>
+      <div class="content">
+        <div class="column">
+          <select>
+            <option value="Hour" selected hidden>Hour</option>
+            <!-- <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option> -->
+          </select>
+        </div>
+        <div class="column">
+          <select>
+            <option value="Minute" selected hidden>Minute</option>
+            <!-- <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option> -->
+          </select></div>
+          <div class="column">
+          <select>
+            <option value="AM/PM" selected hidden>AM/PM</option>
+            <!-- <option value="AM">AM</option>
+            <option value="PM">PM</option> -->
+          </select>
+          </div>
+        </div>
+        <button>Set Alarm</button>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
