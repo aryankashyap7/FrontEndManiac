@@ -1,0 +1,112 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:wght@400;700&display=swap);
+
+* {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(45deg, #3f3f3f, #141111);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-x: hidden;
+  margin: 0;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 40vh;
+  margin: 2rem;
+  position: relative;
+  color: White;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  background: #fff;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  position: relative;
+  transition: 0.5s;
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.gallery .card:hover {
+  transform: scale(1.1);
+  /* darken the background image */
+  /* filter: brightness(0.5); */
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.heading {
+  font-size: 4rem;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+.card h3 {
+  font-size: 3.2rem;
+  width: 100%;
+  text-align: center;
+  /* darken background */
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.only-hover {
+  display: none;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.only-hover p {
+  margin-bottom: 2rem;
+}
+
+.card:hover .only-hover {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin: 1 rem;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+.visit {
+  font-size: 1.6rem;
+  margin: 3rem;
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #fff;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  bottom: 0;
+}
+
+.section {
+  width: 100%;
+  height: 100%;
+}
