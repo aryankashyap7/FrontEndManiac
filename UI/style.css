@@ -71,3 +71,14 @@ body {
   border-radius: 5px;
   transition: all 0.3s ease-in-out;
 }
+
+@media (max-width: 600px) {
+  .card {
+    height: 20rem;
+    width: 30rem;
+    max-width: 30rem;
+  }
+  .container {
+    min-width: 400px;
+  }
+}
