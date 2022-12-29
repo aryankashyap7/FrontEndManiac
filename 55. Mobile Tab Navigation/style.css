@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  background-color: rgba(155, 89, 182, 0.7);
-  font-family: 'Open Sans', sans-serif;
+  background-color: rgba(27, 0, 61, 0.8);
+  font-family: "Open Sans", sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
