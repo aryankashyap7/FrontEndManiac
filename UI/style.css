@@ -2,7 +2,7 @@
 
 :root {
   --border-colour: rgb(163, 53, 53);
-  --background-colour: linear-gradient(45deg, #3f3f3f, #141111);
+  --background-colour: #141111;
   --card-background: linear-gradient(45deg, #0f0c29, #24243e);
   --card-text: rgb(220, 220, 220);
   --card-link-bg: linear-gradient(45deg, #23074d, #cc5333);

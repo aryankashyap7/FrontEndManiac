@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: rgba(27, 0, 61, 0.8);
   font-family: "Open Sans", sans-serif;
